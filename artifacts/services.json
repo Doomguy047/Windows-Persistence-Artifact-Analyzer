@@ -1,0 +1,12 @@
+[
+  {
+    "name": "UpdaterService",
+    "run_as": "LocalSystem",
+    "binary_path": "C:\\Users\\user\\AppData\\Local\\Temp\\service.exe"
+  },
+  {
+    "name": "WindowsDefender",
+    "run_as": "LocalSystem",
+    "binary_path": "C:\\Windows\\System32\\MsMpEng.exe"
+  }
+]

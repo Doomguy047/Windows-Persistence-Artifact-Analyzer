@@ -1,0 +1,12 @@
+[
+  {
+    "key": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "name": "Updater",
+    "command": "C:\\Users\\user\\AppData\\Local\\Temp\\updater.exe"
+  },
+  {
+    "key": "HKLM\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "name": "OneDrive",
+    "command": "C:\\Program Files\\Microsoft OneDrive\\OneDrive.exe"
+  }
+]

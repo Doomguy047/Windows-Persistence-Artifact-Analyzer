@@ -1,0 +1,21 @@
+[
+  {
+    "artifact": "Registry Run Key",
+    "location": "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run",
+    "name": "Updater",
+    "finding": "Suspicious autorun entry",
+    "reason": "Executes from user-writable directory"
+  },
+  {
+    "artifact": "Scheduled Task",
+    "name": "DailyCleanup",
+    "finding": "High-risk scheduled task",
+    "reason": "Runs as SYSTEM from user-writable path"
+  },
+  {
+    "artifact": "Service",
+    "name": "UpdaterService",
+    "finding": "Suspicious service binary location",
+    "reason": "Service runs as SYSTEM from user-writable directory"
+  }
+]

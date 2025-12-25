@@ -1,0 +1,7 @@
+[
+  {
+    "name": "DailyCleanup",
+    "run_as": "SYSTEM",
+    "command": "C:\\Users\\Public\\cleanup.ps1"
+  }
+]
